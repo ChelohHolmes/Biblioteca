@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/b_squeda"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp"/>
+       <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/ingrese_cadena"
+        android:layout_gravity="center"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/buscar"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="end"
+        android:layout_marginEnd="50dp"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimary"
+        android:id="@+id/Buscar"
+        android:onClick="Buscar"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cerrar_sesi_n"
+        android:layout_marginTop="230dp"
+        android:layout_gravity="end"
+        android:layout_marginEnd="50dp"
+        android:id="@+id/Cerrar"
+        android:onClick="Cerrar"/>
+
+
+</LinearLayout>
