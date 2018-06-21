@@ -12,10 +12,11 @@
         android:gravity="center"
         android:layout_marginBottom="16dp"
         android:layout_marginTop="16dp"/>
-       <EditText
+    <EditText
         android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:hint="@string/ingrese_cadena"
+        android:inputType="text"
         android:layout_gravity="center"/>
     <Button
         android:layout_width="wrap_content"
@@ -31,12 +32,11 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/cerrar_sesi_n"
+        android:text="Préstamo"
         android:layout_marginTop="230dp"
         android:layout_gravity="end"
         android:layout_marginEnd="50dp"
         android:id="@+id/Cerrar"
         android:onClick="Cerrar"/>
-
 
 </LinearLayout>

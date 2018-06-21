@@ -1,65 +1,86 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout 
+<LinearLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     xmlns:android="http://schemas.android.com/apk/res/android">
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" 
-        android:text="@string/inicio_de_sesi_n"
+        android:layout_height="wrap_content"
+        android:text="@string/crear_nuevo_usuario"
         android:textSize="24sp"
         android:gravity="center"
         android:layout_marginBottom="16dp"
         android:layout_marginTop="16dp"/>
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/usuario"
-        android:layout_marginStart="10dp"
+        android:text="@string/nombree"
         android:textSize="18sp"
-        />
+        android:layout_marginStart="10dp"/>
+
     <EditText
         android:layout_width="250dp"
         android:layout_height="wrap_content"
-        android:hint="@string/los_hamana"
-        android:inputType="textAutoComplete"
+        android:hint="@string/nombre"
+        android:inputType="textPersonName"
         android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tel_fono"
+        android:textSize="18sp"
+        android:layout_marginStart="10dp"/>
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/tel_fonoo"
+        android:inputType="phone"
+        android:layout_gravity="center"/>
+
     <TextView
         android:layout_marginTop="30dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/contrase_a"
-        android:layout_marginStart="10dp"
-        android:textSize="18sp"/>
+        android:textSize="18sp"
+        android:layout_marginStart="10dp"/>
+
     <EditText
         android:layout_width="250dp"
         android:layout_height="wrap_content"
-        android:hint="@string/vienen_juntos"
+        android:hint="@string/contrase_aa"
+        android:layout_gravity="center"
+        android:inputType="textPassword"/>
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/confirmar_contrase_a"
+        android:textSize="18sp"
+        android:layout_marginStart="10dp"/>
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/contrase_aa"
         android:layout_gravity="center"
         android:inputType="textPassword"/>
 
     <Button
-        android:id="@+id/Iniciar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="end"
-        android:layout_marginEnd="50dp"
-        android:layout_marginTop="50dp"
-        android:onClick="Iniciar"
-        android:text="@string/iniciar"/>
-
-    <Button
         android:id="@+id/Registrar"
-        android:onClick="Registrar"
+        android:onClick="Listo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
         android:layout_gravity="end"
         android:layout_marginEnd="50dp"
         android:background="@color/colorPrimary"
-        android:text="@string/reg_strate"
+        android:text="@string/listo"
         android:textColor="@android:color/white" />
-
-
 </LinearLayout>

@@ -10,5 +10,20 @@
     <string name="buscar">Buscar</string>
     <string name="ingrese_cadena">Ingrese cadena</string>
     <string name="cerrar_sesi_n">Cerrar sesión</string>
+    <string name="nombre">Nombre</string>
+    <string name="edad">Edad</string>
+    <string name="descripci_n">Descripción</string>
+    <string name="imagen_de_la_tarjeta">Imagen de la tarjeta.</string>
+    <string name="autor">Autor</string>
+    <string name="reg_strate">Regístrate</string>
+    <string name="crear_nuevo_usuario">Crear nuevo usuario</string>
+    <string name="nombree">Nombre:</string>
+    <string name="tel_fono">Teléfono</string>
+    <string name="tel_fonoo">Teléfono</string>
+    <string name="contrase_aa">Contraseña</string>
+    <string name="listo">Listo</string>
+    <string name="confirmar_contrase_a">Confirmar contraseña:</string>
+    <string name="xito">¡Registrado con éxito!</string>
+    <string name="volver">Volver</string>
 
 </resources>
